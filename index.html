@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Progress bar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="mainstyle.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<!-- Container begins -->
+<div class="container">
+ 
+<!-- First progress bar -->
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 progress nopadding" id="prog1">
+    	<div class="nopadding" id="bar1" >
+        10%
+        </div>
+  </div>   
+<!-- End of First progress bar -->
+
+<!-- 2nd progress bar -->
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 progress nopadding" id="prog2">
+        	<div class="nopadding" id="bar2" >
+         	20%
+        	</div>
+  </div>
+<!-- End of 2nd progress bar -->
+
+<!-- 3rd progress bar -->
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 progress nopadding" id="prog3">
+        	<div class="nopadding" id="bar3" >
+        	30%
+        	</div>
+       </div>
+<!-- End of 3rd progress bar -->
+	
+<br/>
+<select id="purpose">
+<option value="0">Progress bar 1</option>
+<option value="1">Progress bar 2</option>
+<option value="2">Progress bar 3</option>
+</select>
+
+<button onclick="add(this.id)" id="1" >+10%</button> 
+<button onclick="minus(this.id)" id="3" >-10%</button> 
+<button onclick="add(this.id)" id="2" >+20%</button>
+<button onclick="minus(this.id)" id="4" >-20%</button> 
+
+</div>
+<!-- End of container -->
+
+<script type="text/javascript" src="main-min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
