@@ -133,7 +133,7 @@ if(document.getElementById("purpose").value === "0"){
 	function decrease(wi){
 			if (wi<=0){ 
 				wi= 0;
-				bar.style.width = 5*1 + "%";// if width is 0 or less than 0 sets width to 5%
+				bar.style.width = 8*1 + "%";// if width is 0 or less than 0 sets width to 5%
 				bar.style.backgroundColor = "#f5f5f5";//change background color	
 				bar.style.border = "2px solid #e4e4e4";// sets the border
 			}
